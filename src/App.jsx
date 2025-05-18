@@ -16,7 +16,7 @@ function App() {
   const [selectPlayer, setSelectPlayer] = useState([]);
 
   useEffect(() => {
-    fetch("/public/fack.json")
+    fetch("/fack.json")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
