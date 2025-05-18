@@ -5,7 +5,7 @@
     "country": "India",
     "country_flag": "https://flagcdn.com/in.svg",
     "rating": 9.8,
-    "price": 12,
+    "price": 12000,
     "player_type": "Batsman",
     "batting_style": "Right-hand bat"
   },
@@ -15,7 +15,7 @@
     "country": "Australia",
     "country_flag": "https://flagcdn.com/au.svg",
     "rating": 9.5,
-    "price": 11,
+    "price": 11000,
     "player_type": "Batsman",
     "batting_style": "Right-hand bat"
   },
@@ -25,7 +25,7 @@
     "country": "New Zealand",
     "country_flag": "https://flagcdn.com/nz.svg",
     "rating": 9.3,
-    "price": 10,
+    "price": 10000,
     "player_type": "Batsman",
     "batting_style": "Right-hand bat"
   },
@@ -35,7 +35,7 @@
     "country": "England",
     "country_flag": "https://flagcdn.com/gb.svg",
     "rating": 9.0,
-    "price": 11,
+    "price": 11000,
     "player_type": "All-Rounder",
     "batting_style": "Left-hand bat",
     "bowling_style": "Right-arm fast-medium"
@@ -46,7 +46,7 @@
     "country": "Bangladesh",
     "country_flag": "https://flagcdn.com/bd.svg",
     "rating": 8.9,
-    "price": 10,
+    "price": 10000,
     "player_type": "All-Rounder",
     "batting_style": "Left-hand bat",
     "bowling_style": "Left-arm orthodox"
@@ -57,7 +57,7 @@
     "country": "India",
     "country_flag": "https://flagcdn.com/in.svg",
     "rating": 9.2,
-    "price": 9,
+    "price": 90000,
     "player_type": "Bowler",
     "bowling_style": "Right-arm fast"
   },
@@ -67,7 +67,7 @@
     "country": "Australia",
     "country_flag": "https://flagcdn.com/au.svg",
     "rating": 8.8,
-    "price": 9,
+    "price": 90000,
     "player_type": "Bowler",
     "bowling_style": "Left-arm fast"
   },
@@ -77,7 +77,7 @@
     "country": "Afghanistan",
     "country_flag": "https://flagcdn.com/af.svg",
     "rating": 9.1,
-    "price": 9,
+    "price": 90000,
     "player_type": "Bowler",
     "bowling_style": "Right-arm leg spin"
   },
@@ -87,7 +87,7 @@
     "country": "Pakistan",
     "country_flag": "https://flagcdn.com/pk.svg",
     "rating": 9.4,
-    "price": 10,
+    "price": 10000,
     "player_type": "Batsman",
     "batting_style": "Right-hand bat"
   },
@@ -97,7 +97,7 @@
     "country": "Australia",
     "country_flag": "https://flagcdn.com/au.svg",
     "rating": 8.7,
-    "price": 8,
+    "price": 80000,
     "player_type": "Batsman",
     "batting_style": "Left-hand bat"
   }

@@ -1,22 +1,13 @@
-import { useEffect, useState } from "react";
 
-const PlayerCards = () => {
-  const [players, setPlayers] = useState([]);
 
-  useEffect(() => {
-    fetch("/public/fack.json")
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
-        setPlayers(data);
-      });
-  }, []);
+const PlayerCards = ({players}) => {
+ 
   return (
     <div>
-      <h1>Player : {players.length}</h1>
+      <h1 className="font-bold text-2xl mb-5">Availabe Player</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {players.map((player, idx) => (
-          <div key={idx} className="card w-96 bg-base-100 shadow-xl">
+          <div key={idx} className="card bg-base-100 shadow-xl">
             <figure>
               <img className="w-full" src={player.img} alt={player.name} />
             </figure>
