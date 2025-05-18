@@ -1,7 +1,8 @@
 
 
-const PlayerCards = ({players}) => {
- 
+const PlayerCards = ({players ,handleChoosePlayer,}) => {
+  
+
   return (
     <div>
       <h1 className="font-bold text-2xl mb-5">Availabe Player</h1>
@@ -35,7 +36,7 @@ const PlayerCards = ({players}) => {
                 <p className="font-bold">{player.bowling_style}</p>
                 <div className="flex justify-between items-center">
                   <p className="font-bold">Price: {player.price}</p>
-                  <button className="btn ">Player Choose</button>
+                  <button onClick={()=>handleChoosePlayer(player)} className="btn btn-primary">Player Choose</button>
                 </div>
               </div>
             </div>
