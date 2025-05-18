@@ -1,7 +1,7 @@
 import bannerImg from "../../assets/banner-main.png";
 import bgImg from "../../assets/bg-shadow.png";
 
-const Banner = () => {
+const Banner = ({handleCoins}) => {
   return (
     <div
       className="hero bg-cover bg-center bg-black container mx-auto relative "
@@ -24,7 +24,7 @@ const Banner = () => {
           <p className="mb-5 text-gray-400">
             Beyond Boundaries Beyond Limits
           </p>
-          <button className="btn btn-primary">Claim Free Credit</button>
+          <button onClick={()=>handleCoins(100000)} className="btn btn-primary">Claim Free Credit</button>
         </div>
       </div>
     </div>

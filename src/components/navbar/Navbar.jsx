@@ -1,6 +1,6 @@
 import logoImg from "../../assets/logo.png";
 
-export const Navbar = () => {
+export const Navbar = ({coins}) => {
   return (
    <div className="bg-base-100 ">
      <div className="navbar container mx-auto shadow-sm px-4">
@@ -50,7 +50,7 @@ export const Navbar = () => {
           <li><a>Teams</a></li>
           <li><a>Schedules</a></li>
         </ul>
-        <a className="btn ml-2"><span>0</span>Coins</a>
+        <a className="btn ml-2"><span>{coins}</span>Coins</a>
       </div>
     </div>
    </div>
