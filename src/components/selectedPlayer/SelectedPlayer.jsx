@@ -1,5 +1,5 @@
-const SelectedPlayer = ({ selectPlayer }) => {
-  console.log(selectPlayer, "sel");
+const SelectedPlayer = ({ selectPlayer, handleDeletePlayer }) => {
+  // console.log(selectPlayer, "sel");
 
   return (
     <div className="border p-4 rounded shadow">
@@ -23,7 +23,7 @@ const SelectedPlayer = ({ selectPlayer }) => {
               <p className="text-sm text-gray-600">{p.batting_style}</p>
             </div>
           </div>
-          <button className="text-red-500 hover:underline">Delete</button>
+          <button onClick={()=>handleDeletePlayer(p.id)} className="text-red-500 hover:underline">Delete</button>
         </div>
       ))}
     </div>

@@ -24,7 +24,15 @@ function App() {
       });
   }, []);
 
+  //  handle coin function
+  const handleCoins = (value) => {
+    const newValue = coins + value;
+    setCoins(newValue);
+  };
 
+  const handleRemainigCoin = (price) => {
+    setCoins(coins - price);
+  };
 
   // handle conditional rendaring
   const handleActivate = (active) => {
@@ -38,25 +46,28 @@ function App() {
   const handleChoosePlayer = (player) => {
     const isExist = selectPlayer.find((p) => p.id == player.id);
     if (!isExist) {
+      handleRemainigCoin(player.price);
       const newSelected = [...selectPlayer, player];
       if (newSelected.length < 7) {
-         setSelectPlayer(newSelected);
+        setSelectPlayer(newSelected);
       } else {
-       alert("No more player added");
+        alert("No more player added");
       }
     } else {
       alert("This player is existed");
     }
   };
 
-  //  handle coin function
-    const handleCoins = (value) => {
-    const newValue = coins + value;
-
-    setCoins(newValue);
-    // console.log(`Coins updated: ${value} added`);
-    // console.log(`Total Coins: ${newValue}`);
+  const handleDeletePlayerPrice = (id) => {
+    const player = selectPlayer.find((p) => p.id == id);
+    setCoins(coins+player.price)
   };
+  const handleDeletePlayer = (id) => {
+    handleDeletePlayerPrice(id);
+    const remainingPlayer = selectPlayer.filter((p) => p.id !== id);
+    setSelectPlayer(remainingPlayer);
+  };
+
   return (
     <>
       <Navbar coins={coins} />
@@ -84,7 +95,10 @@ function App() {
             handleChoosePlayer={handleChoosePlayer}
           />
         ) : (
-          <SelectedPlayer selectPlayer={selectPlayer} />
+          <SelectedPlayer
+            selectPlayer={selectPlayer}
+            handleDeletePlayer={handleDeletePlayer}
+          />
         )}
       </div>
       <Footer />
