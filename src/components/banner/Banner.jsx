@@ -4,7 +4,7 @@ import bgImg from "../../assets/bg-shadow.png";
 const Banner = ({handleCoins}) => {
   return (
     <div
-      className="hero bg-cover bg-center bg-black container mx-auto relative "
+      className="hero bg-cover bg-center bg-black container mx-auto relative rounded-lg "
       style={{ backgroundImage: `url(${bgImg})` }}
     >
   

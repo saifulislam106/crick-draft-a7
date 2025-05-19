@@ -26,13 +26,13 @@ const PlayerCards = ({players ,handleChoosePlayer,}) => {
                   <p className="text-sm"> {player.country}</p>
                 </div>
                 <div>
-                  <p className="bg-gray-200 rounded-lg p-2">
+                  <p className="bg-gray-200 dark:bg-gray-700 rounded-lg p-2">
                     {player.player_type}
                   </p>
                 </div>
               </div>
               <div className="border-t-2 border-gray-200 pt-4 mt-2">
-                <p className="font-bold">{player.batting_style}</p>
+                <p className="font-bold ">{player.batting_style}</p>
                 <p className="font-bold">{player.bowling_style}</p>
                 <div className="flex justify-between items-center">
                   <p className="font-bold">Price: {player.price}</p>

@@ -36,15 +36,15 @@ export const Navbar = ({coins}) => {
         </div>
 
         {/* Logo */}
-        <a className="btn btn-ghost text-xl gap-2">
-          <img src={logoImg} alt="Logo" className="h-8 w-8" />
+        <a className="">
+          <img src={logoImg} alt="Logo" className="h-20 w-20" />
         
         </a>
       </div>
 
       {/* Right: Nav Items + Button */}
       <div className="navbar-end w-full justify-end">
-        <ul className="menu menu-horizontal px-1 text-gray-500 hidden md:flex">
+        <ul className="menu menu-horizontal px-1 text-gray-500 dark:text-gray-300 font-medium hidden md:flex">
           <li><a>Home</a></li>
           <li><a>Fixture</a></li>
           <li><a>Teams</a></li>
