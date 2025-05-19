@@ -1,4 +1,4 @@
-
+import playerImg from "../../assets/rashid.jpg"
 
 const PlayerCards = ({players ,handleChoosePlayer,}) => {
   
@@ -10,7 +10,7 @@ const PlayerCards = ({players ,handleChoosePlayer,}) => {
         {players.map((player, idx) => (
           <div key={idx} className="card bg-base-100 shadow-xl">
             <figure>
-              <img className="w-full" src={player.img} alt={player.name} />
+              <img className="w-full" src={playerImg} alt={player.name} />
             </figure>
             <div className="card-body">
               <h2 className="card-title">{player.name}</h2>

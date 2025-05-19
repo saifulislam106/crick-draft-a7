@@ -1,8 +1,8 @@
 [
   {
-    "id":1,
+    "id": 1,
     "name": "Virat Kohli",
-    "img": "",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Virat_Kohli_portrait.jpg",
     "country": "India",
     "country_flag": "https://flagcdn.com/in.svg",
     "rating": 9.8,
@@ -11,9 +11,9 @@
     "batting_style": "Right-hand bat"
   },
   {
-    "id":2,
+    "id": 2,
     "name": "Steve Smith",
-    "img": "",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Steve_Smith_2018.jpg",
     "country": "Australia",
     "country_flag": "https://flagcdn.com/au.svg",
     "rating": 9.5,
@@ -22,9 +22,9 @@
     "batting_style": "Right-hand bat"
   },
   {
-    "id":3,
+    "id": 3,
     "name": "Kane Williamson",
-    "img": "",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Kane_Williamson_2018.jpg",
     "country": "New Zealand",
     "country_flag": "https://flagcdn.com/nz.svg",
     "rating": 9.3,
@@ -33,9 +33,9 @@
     "batting_style": "Right-hand bat"
   },
   {
-    "id":4,
+    "id": 4,
     "name": "Ben Stokes",
-    "img": "",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Ben_Stokes_2019.jpg",
     "country": "England",
     "country_flag": "https://flagcdn.com/gb.svg",
     "rating": 9.0,
@@ -45,9 +45,9 @@
     "bowling_style": "Right-arm fast-medium"
   },
   {
-    "id":5,
+    "id": 5,
     "name": "Shakib Al Hasan",
-    "img": "",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Shakib_Al_Hasan_2019.jpg",
     "country": "Bangladesh",
     "country_flag": "https://flagcdn.com/bd.svg",
     "rating": 8.9,
@@ -57,9 +57,9 @@
     "bowling_style": "Left-arm orthodox"
   },
   {
-    "id":6,
+    "id": 6,
     "name": "Jasprit Bumrah",
-    "img": "",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Jasprit_Bumrah_2019.jpg",
     "country": "India",
     "country_flag": "https://flagcdn.com/in.svg",
     "rating": 9.2,
@@ -68,9 +68,9 @@
     "bowling_style": "Right-arm fast"
   },
   {
-    "id":7,
+    "id": 7,
     "name": "Mitchell Starc",
-    "img": "",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Mitchell_Starc_2019.jpg",
     "country": "Australia",
     "country_flag": "https://flagcdn.com/au.svg",
     "rating": 8.8,
@@ -79,9 +79,9 @@
     "bowling_style": "Left-arm fast"
   },
   {
-    "id":8,
+    "id": 8,
     "name": "Rashid Khan",
-    "img": "",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Rashid_Khan_2019.jpg",
     "country": "Afghanistan",
     "country_flag": "https://flagcdn.com/af.svg",
     "rating": 9.1,
@@ -90,9 +90,9 @@
     "bowling_style": "Right-arm leg spin"
   },
   {
-    "id":9,
+    "id": 9,
     "name": "Babar Azam",
-    "img": "",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Babar_Azam_2019.jpg",
     "country": "Pakistan",
     "country_flag": "https://flagcdn.com/pk.svg",
     "rating": 9.4,
@@ -101,9 +101,9 @@
     "batting_style": "Right-hand bat"
   },
   {
-    "id":10,
+    "id": 10,
     "name": "David Warner",
-    "img": "",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/3/3e/David_Warner_2019.jpg",
     "country": "Australia",
     "country_flag": "https://flagcdn.com/au.svg",
     "rating": 8.7,
